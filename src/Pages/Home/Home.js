@@ -8,8 +8,6 @@ const Home = () => {
       <PageNav />
       <div className="lists-wrapper flex gap-3">
         <Lists />
-        <Lists />
-        <Lists />
       </div>
     </div>
   );

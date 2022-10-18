@@ -1,5 +1,6 @@
 import React from "react";
 import PageNav from "../../components/PageNav/PageNav";
+// import Car from "../../Test";
 import Lists from "./Lists/Lists";
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
       <div className="lists-wrapper flex gap-3">
         <Lists />
       </div>
+      {/* <Car /> */}
     </div>
   );
 };
